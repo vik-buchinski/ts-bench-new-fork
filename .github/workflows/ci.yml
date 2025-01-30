@@ -28,5 +28,5 @@ jobs:
           cache: "npm"
       - run: npm ci --legacy-peer-deps
       - uses: nrwl/nx-set-shas@v4
-      - run: sleep 60 # ignore, just for the purpose of the benchmark
+      - run: sleep 180 # ignore, just for the purpose of the benchmark
       - run: npx nx run-many -t typecheck build
