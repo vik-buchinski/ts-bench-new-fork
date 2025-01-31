@@ -2,19 +2,12 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "typecheck": {
-      "outputs": [
-        "{projectRoot}/out-tsc"
-      ],
-      "dependsOn": [
-        "^typecheck"
-      ]
+      "outputs": ["{projectRoot}/out-tsc"],
+      "dependsOn": ["^typecheck"]
     }
   },
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
       "default",
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
@@ -78,6 +71,6 @@
     }
   },
   "nxCloudId": "679c877cd5cf20060aafed7b",
-  "bump": 6,
+  "bump": 7,
   "nxCloudUrl": "https://staging.nx.app"
 }
