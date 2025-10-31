@@ -2,6 +2,12 @@
   "recommendations": [
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "dbaeumer.vscode-eslint",
+    "yoavbls.pretty-ts-errors",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.intellicode-api-usage-examples",
+    "ms-playwright.playwright",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
